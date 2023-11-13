@@ -1,0 +1,41 @@
+@media (max-width: 480px){
+    body{
+        background-color: red;
+    }
+    #f{
+        display: none;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 780px){
+    body{
+        background-color: blue;
+    }
+    #f{
+        display: absolute;
+    }
+}
+@media (min-width: 781px) and (max-width: 1200px){
+    body{
+        background-color: green;
+    }
+    #f{
+        display: none;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px){
+    body{
+        background-color: whitesmoke;
+    }
+    #f{
+        display: none;
+    }
+}
+@media (min-width: 1601px){
+    body{
+        background-color: yellow;
+    }
+    #f{
+        display: none;
+    }
+}
